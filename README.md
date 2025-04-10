@@ -155,7 +155,6 @@ ipfs add <audio-path>
 ```
 to add audio
 
-![audio](https://github.com/user-attachments/assets/63297200-f2dd-48e0-ae29-a319240ec2d5)
 
 
 ```
@@ -163,7 +162,6 @@ ipfs add <video-path>
 ```
 to add video
 
-![video](https://github.com/user-attachments/assets/131c2e88-a2fa-47a1-93f3-22d615d2e1bd)
 
 ## Metamask
 ![WhatsApp Image 2025-04-10 at 08 03 23_0c56db52](https://github.com/user-attachments/assets/36596342-719a-4de4-8db5-8787e3d783a5)
