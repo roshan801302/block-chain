@@ -101,6 +101,9 @@ to initialise ipfs
 ipfs daemon
 ```
 to use daemon
+![image](https://github.com/user-attachments/assets/463aab2e-d535-4010-bb9a-4490111dd57b)
+
+
 ```
 ipfs.log 2>&1 &
 ```
@@ -129,3 +132,39 @@ lists running processes
 kill <PID>
 ```
 to kill the process
+## encrypting and decrypting
+```
+echo "Hello, bruh" > myfile.txt
+ipfs add myfile.txt
+openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -salt -in myfile.txt -out myfile_encrypted.txt -pass pass:yourpassword
+ipfs add myfile_encrypted.txt
+cat myfile_encrypted.txt
+openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -in myfile_encrypted.txt -out decrypted_file.txt -pass pass:yourpassword
+cat decrypted_file.txt
+ipfs add decrypted_file.txt
+```
+
+![enc-dec](https://github.com/user-attachments/assets/293f1b3a-4ba4-4b35-8f04-d93fb9c9a6f7)
+
+
+## to push video and audio
+
+```
+ipfs add <audio-path>
+```
+to add audio
+
+![audio](https://github.com/user-attachments/assets/63297200-f2dd-48e0-ae29-a319240ec2d5)
+
+
+```
+ipfs add <video-path>
+```
+to add video
+
+![video](https://github.com/user-attachments/assets/131c2e88-a2fa-47a1-93f3-22d615d2e1bd)
+
+## Metamask
+![WhatsApp Image 2025-04-10 at 08 03 23_0c56db52](https://github.com/user-attachments/assets/36596342-719a-4de4-8db5-8787e3d783a5)
+
+## Free Sepolia Faucet 0.05 with GCP-
