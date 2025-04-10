@@ -73,6 +73,7 @@ to down the network
 ```
 wget https://dist.ipfs.tech/kubo/v0.32.1/kubo_v0.32.1_linux-amd64.tar.gz
 ```
+![image](https://github.com/user-attachments/assets/7d967d7e-f1b1-4713-b7c1-78a11124082a)
 
 
 ### Install IPFS
