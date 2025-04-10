@@ -144,7 +144,7 @@ cat decrypted_file.txt
 ipfs add decrypted_file.txt
 ```
 
-![enc-dec](https://github.com/user-attachments/assets/293f1b3a-4ba4-4b35-8f04-d93fb9c9a6f7)
+![WhatsApp Image 2025-04-10 at 08 15 19_77cd6ca5](https://github.com/user-attachments/assets/756e08ce-19fa-48a6-a82d-60edb2596337)
 
 
 ## to push video and audio
